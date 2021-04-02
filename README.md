@@ -6,7 +6,7 @@ This works for indexed images only for now.
 
 ## Installation
 Copy the script file into your script folder.<br>
-Your script folder might be located in: *<diskdrive>:\Users\<username>\AppData\Roaming\Aseprite\scripts* **(Steam release/Windows 10)**.
+Your script folder might be located in: *diskdrive:\Users\username\AppData\Roaming\Aseprite\scripts* **(Steam release/Windows 10)**.
 
 ## How to use
 1. Open wanted image in Aseprite or create new **indexed** image.
