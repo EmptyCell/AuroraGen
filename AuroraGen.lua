@@ -60,15 +60,15 @@ end
 
 app.command.ChangePixelFormat{format="indexed", dithering="none"}
 dlg = Dialog{title="AuroraGen by EmptyCell"}:slider{id="sepColor", label="Temporary Main Line Color Index:", min=0, max=255, value="0"}
-											:slider{id="mainColorIndex", label="Main Line Color Index:", min=0, max=255, value="0"}
-											:slider{id="firstColorIndex", label="First Wave Color Index:", min=0, max=255, value="0"}
-											:slider{id="secondColorIndex", label="Second Wave Color Index:", min=0, max=255, value="0"}
-											:slider{id="thirdColorIndex", label="Third Wave Color Index:", min=0, max=255, value="0"}
-											:slider{id="lastColorIndex", label="Last Wave Color Index:", min=0, max=255, value="0"}
-											:check{id="saveNew", label="Save as new file?", selected=false}
-											:button{id="ok", text="OK"}
-											:button{text="Cancel"}
-											:show().data
+					    :slider{id="mainColorIndex", label="Main Line Color Index:", min=0, max=255, value="0"}
+					    :slider{id="firstColorIndex", label="First Wave Color Index:", min=0, max=255, value="0"}
+					    :slider{id="secondColorIndex", label="Second Wave Color Index:", min=0, max=255, value="0"}
+					    :slider{id="thirdColorIndex", label="Third Wave Color Index:", min=0, max=255, value="0"}
+					    :slider{id="lastColorIndex", label="Last Wave Color Index:", min=0, max=255, value="0"}
+					    :check{id="saveNew", label="Save as new file?", selected=false}
+					    :button{id="ok", text="OK"}
+					    :button{text="Cancel"}
+					    :show().data
 if dlg.ok then
 	img = cel.image:clone()
 	makeAurora()
